@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon Site avec GetsApp</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+    main {
+      padding: 40px;
+      text-align: center;
+    }
+    .getsapp-icon {
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .getsapp-icon img {
+      width: 80px;
+      height: 80px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenue sur mon site</h1>
+  </header>
+
+  <main>
+    <h2>Ouvrir GetsApp</h2>
+    <p>Cliquez sur l'icône ci-dessous pour ouvrir l'application GetsApp :</p>
+    
+    <a class="getsapp-icon" href="intent://com.xiaomi.mipicks/#Intent;scheme=android-app;end">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="GetsApp Icon">
+    </a>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mon Site. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
